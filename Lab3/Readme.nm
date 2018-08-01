@@ -6,3 +6,17 @@ Programming Language: C#
 Status: Not finished
 
 - Interface Missing
+
+Compiling Notes:
+
+C# is part of Windows' platform .NET.
+Because of this, as this project is written in C#, it needs the machine running it to have .NET installed.
+If this is the case, you can compile the whole project using the MSBuild.exe file present in the folder.
+
+As you are compiling the whole project, and not just the source code, it is a bit different to compiling a Java or C code.
+In order to compile the project, ALL files present in the folder are necessary. After compiling, "bin" and "obj" folders will appear.
+
+These are the result of the compilation. For unknown reasons, both folders contain Chatbot.exe files, and you can run whichever you want.
+
+Lower version of .NET required: Unknown
+Project tested on version: 4.0.30319
